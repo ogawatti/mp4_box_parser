@@ -1,3 +1,4 @@
+[![GitHub version](https://badge.fury.io/gh/ogawatti%2Fmp4_box_parser.svg)](https://badge.fury.io/gh/ogawatti%2Fmp4_box_parser)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
@@ -13,6 +14,8 @@ $ npm install ogawatti/mp4_box_parser#master
 
 ## Usage
 
+### require
+
 ```
 const Mp4BoxParser = require('jpeg_xmp_parser')
 
@@ -20,7 +23,13 @@ let result = Mp4BoxParser.parse('test/test.mp4')
 console.log(result)
 ```
 
-## Sample Result ##
+### command line
+
+```
+$ npm run start ./test/test.mp4 | jq .
+```
+
+## Sample Result
 
 ```
 {
