@@ -4,6 +4,7 @@
   "description": "Parse MP4 box to object.",
   "main": "index.js",
   "scripts": {
+    "start": "node scripts/start.js",
     "test": "nyc mocha",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
