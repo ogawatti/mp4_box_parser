@@ -1,4 +1,5 @@
 [![GitHub version](https://badge.fury.io/gh/ogawatti%2Fmp4_box_parser.svg)](https://badge.fury.io/gh/ogawatti%2Fmp4_box_parser)
+[![Build Status](https://travis-ci.org/ogawatti/mp4_box_parser.svg)](https://travis-ci.org/ogawatti/mp4_box_parser)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
